@@ -33,7 +33,7 @@ function changeSquare(e) {
     if (value <= 100) {
         processChangeSquare(value)
     } else {
-        alert('Sorry because of the render issue, we limit the square into 45')
+        alert('Sorry because of the render issue, we limit the square into 100')
     }
 }
 
