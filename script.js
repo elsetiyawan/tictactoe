@@ -31,11 +31,7 @@ function clickSquare(e) {
 function changeSquare(e) {
     let value = e.target.value
     if (value <= 100) {
-        if (value % 2 === 1) {
-            processChangeSquare(value)
-        } else {
-            alert('Failed, Must be odd number')
-        }
+        processChangeSquare(value)
     } else {
         alert('Sorry because of the render issue, we limit the square into 45')
     }
